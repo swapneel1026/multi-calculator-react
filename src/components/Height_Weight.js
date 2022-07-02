@@ -8,14 +8,14 @@ const HeightWeight = () => {
 
   const heightHandler = () => {
     if (height.length !== 0) {
-      setHeightResult(height * 0.393701);
+      setHeightResult(height * 0.393701 + " inches");
     } else {
       alert("please provide height");
     }
   };
   const weightHandler = () => {
     if (weight.length !== 0) {
-      setWeightResult(weight * 0.453592);
+      setWeightResult(weight * 0.453592 + " kilograms");
     } else {
       alert("please provide weight");
     }
@@ -36,7 +36,7 @@ const HeightWeight = () => {
       </div>
       <br />
       <button onClick={heightHandler}>Convert To Inches </button>
-      <h3>Result: {heightResult + " Inches"}</h3>
+      <h3>Result: {heightResult}</h3>
 
       <div>
         <br />
@@ -53,7 +53,7 @@ const HeightWeight = () => {
       <br />
 
       <button onClick={weightHandler}>Convert To Inches </button>
-      <h3>Result: {weightResult + " kilograms"}</h3>
+      <h3>Result: {weightResult}</h3>
     </div>
   );
 };

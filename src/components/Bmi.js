@@ -86,6 +86,8 @@ const Bmi = () => {
               type="number"
               placeholder="Age"
               required
+              min="0"
+              max="100"
               value={age}
               onChange={(e) => {
                 setAge(e.target.value);
