@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from "react";
 
 const HeightWeight = () => {
@@ -62,4 +62,4 @@ const HeightWeight = () => {
 export default HeightWeight;
 =======
 
->>>>>>> 211eabaa7b8a2d599c4c41b5fbd12fb4d97ed053
+
