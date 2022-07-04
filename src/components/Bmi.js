@@ -145,6 +145,6 @@ const Bmi = () => {
 };
 
 export default Bmi;
-=======
+
 
 
