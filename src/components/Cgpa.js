@@ -4,7 +4,13 @@ const Cgpa = () => {
   const [percentage, setPercentage] = useState("");
   const [result, setResult] = useState("Waiting for Input ");
   const calculateCgpa = () => {
-    setResult(`${percentage * 9.5}% `);
+    let newPercentage = Number(percentage);
+
+    if (newPercentage !== 0 && !isNaN(newPercentage)) {
+      setResult(`${percentage * 9.5}% `);
+    } else {
+      alert("Please Enter correct numeric value");
+    }
   };
   return (
     <div className="Container">

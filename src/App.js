@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <h1>Multi Calculator</h1>
       <span>
-        Calculate
+        Calculate =
         <select onChange={(e) => setOption(e.target.value)}>
           <option>BMI</option>
           <option>CGPA</option>

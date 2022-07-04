@@ -79,13 +79,15 @@ const Bmi = () => {
     <div className="Container">
       <h1>BMI Calculator</h1>
       <div>
-        <div>
+        <div className="button">
           <div>
             <span>Age(years): </span>
             <input
               type="number"
               placeholder="Age"
               required
+              min="0"
+              max="100"
               value={age}
               onChange={(e) => {
                 setAge(e.target.value);
