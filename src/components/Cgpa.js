@@ -40,6 +40,6 @@ const Cgpa = () => {
 };
 
 export default Cgpa;
-=======
+
 
 
