@@ -36,7 +36,7 @@ const HeightWeight = () => {
         />
       </div>
       <br />
-      <button onClick={heightHandler}>Convert To Inches </button>
+      <button onClick={heightHandler}>Convert To Feet </button>
       <h3>Result: {heightResult}</h3>
 
       <div>
