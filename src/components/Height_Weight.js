@@ -9,7 +9,7 @@ const HeightWeight = () => {
 
   const heightHandler = () => {
     if (height.length !== 0) {
-      setHeightResult(height * 0.393701 + " inches");
+      setHeightResult(height * 0.0328084 + " feet");
     } else {
       alert("please provide height");
     }
