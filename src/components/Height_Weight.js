@@ -53,7 +53,7 @@ const HeightWeight = () => {
       </div>
       <br />
 
-      <button onClick={weightHandler}>Convert To Inches </button>
+      <button onClick={weightHandler}>Convert To Kilograms </button>
       <h3>Result: {weightResult}</h3>
     </div>
   );
