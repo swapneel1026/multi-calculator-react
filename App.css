@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(127, 187, 255);
+  color: rgb(70, 48, 194);
+}
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Container {
+  border: 1px solid black;
+  width: fit-content;
+  position: relative;
+  top: 2rem;
+  padding: 1rem;
+  background-color: rgb(40, 44, 52);
+  color: rgb(97, 218, 251);
+}
+.Container > button {
+  background-color: rgb(97, 218, 251);
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.button > button {
+  background-color: rgb(97, 218, 251);
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+#h3 {
+  color: whitesmoke;
+}
+
+span {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+}
+/* blue-rgb(97,218,251) 
+black -rgb(40,44,52)*/
